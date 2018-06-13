@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
-	<title>Ainix</title>
+	<link rel="stylesheet" type="text/css" href="{{ asset('css/font/css/font-awesome.min.css') }}">
+	<title>{{ isset($title)? $title .'|' : '' }} AinixFact</title>
 </head>
 <body>
 	@include('layouts/partials/_nav')con

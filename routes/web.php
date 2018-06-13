@@ -19,5 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/home1','PageController@index')->name('home1');
+Route::get('/galery','PageController@galery')->name('galery');
 Route::get('/contact','PageController@contact')->name('contact');
 Route::get('/about','PageController@about')->name('about');
+Route::resource('images', 'ImageController');

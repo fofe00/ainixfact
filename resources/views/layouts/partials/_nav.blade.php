@@ -16,7 +16,7 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
            <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/index.html">Default</a></li>
+            <li><a href="{{ route('galery') }}">Galery</a></li>
             <li class="1"><a href="{{ route('contact') }}">Contact </a></li>
             <li><a href="{{ route('about') }}">About</a></li>
           </ul>
