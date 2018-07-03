@@ -52,7 +52,7 @@
     	 <p> look for us on the map</p>
     	 <div class="row">
     	 	<div class="col-sm-12">
-    	 		
+    	 		<iframe width="400" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://cartosm.eu/map?lon=13.577942847551&lat=7.3190945584906&zoom=14&width=400&height=250&mark=true&nav=false&pan=true&zb=bar&style=default&icon=right"></iframe><br /><div id="cartosmlink"><a href="http://www.openstreetmap.org/?mlat=7.3190945584906&mlon=13.577942847551&zoom=14&layers=M"  target="_blank" style="text-align:left;">Voir sur une carte plus grande</a></div>
     	 	</div>
     	 </div>
     </div>
